@@ -64,7 +64,7 @@ const MainCard = ({ data }: MainCardProps) => {
           onMouseLeave={() => setHoveredInfo(null)}
         >
           <img
-            src="/icon_phone.png" // Replace with the correct path to the phone icon
+            src="/icon_phone.png"
             className="w-8 h-8 cursor-pointer"
           />
           {hoveredInfo === 'phone' && (

@@ -4,7 +4,8 @@ import MainCard from "./components/maincard";
 
 const RANDOM_API_URL = "https://randomuser.me/api/";
 
-interface MainCard {
+{/*
+interface MainCard2 {
   person: {
     name: string;
     lname: string;
@@ -15,7 +16,7 @@ interface MainCard {
     password: string;
     image: string;
   };
-}
+} */}
 
 const Index = () => {
   const [mainCardData, setMainCardData] = useState<MainCard | null>(null);
